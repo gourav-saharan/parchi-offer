@@ -11,14 +11,11 @@
     <meta property="og:image" content="https://parchi.in/favicon.ico" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://gourav-saharan.github.io/parchi-offer/" />
-    
-    <!-- Instant Redirect to Google Play Store -->
-    <meta http-equiv="refresh" content="1; url=https://play.google.com/store/apps/details?id=in.parchieasybilling.parchi&amp;referrer=utm_source%3Dmeta_ads%26utm_medium%3Dcpc%26utm_campaign%3Dparchi_launch_hindi%26utm_content%3Doffer_999">
 
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
         body { background: linear-gradient(135deg, #0f172a, #1e293b); color: #ffffff; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; text-align: center; }
-        .card { background: rgba(30, 41, 59, 0.9); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 24px; padding: 36px 24px; max-width: 440px; width: 100%; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); }
+        .card { background: rgba(30, 41, 59, 0.95); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 24px; padding: 36px 24px; max-width: 440px; width: 100%; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); }
         .badge { display: inline-block; background: #dc2626; color: #fff; font-weight: 800; font-size: 13px; padding: 6px 14px; border-radius: 999px; margin-bottom: 20px; letter-spacing: 0.5px; animation: pulse 2s infinite; }
         h1 { font-size: 26px; font-weight: 800; margin-bottom: 12px; color: #f8fafc; line-height: 1.3; }
         .highlight { color: #facc15; }
@@ -28,7 +25,7 @@
         .feature-item:last-child { margin-bottom: 0; }
         .btn-download { display: block; width: 100%; background: linear-gradient(135deg, #10b981, #059669); color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 800; padding: 16px; border-radius: 14px; box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3); transition: transform 0.2s; }
         .btn-download:hover { transform: translateY(-2px); }
-        .footer-note { font-size: 12px; color: #64748b; margin-top: 18px; }
+        .footer-note { font-size: 13px; color: #94a3b8; margin-top: 18px; }
         @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.85; transform: scale(1.05); } }
     </style>
 </head>
@@ -45,16 +42,17 @@
             <div class="feature-item">🎉 <span class="highlight">₹999 में लाइफटाइम एक्सेस</span> (No Monthly Fees)</div>
         </div>
 
-        <a class="btn-download" href="https://play.google.com/store/apps/details?id=in.parchieasybilling.parchi&referrer=utm_source%3Dmeta_ads%26utm_medium%3Dcpc%26utm_campaign%3Dparchi_launch_hindi%26utm_content%3Doffer_999">
+        <a class="btn-download" id="downloadBtn" href="https://play.google.com/store/apps/details?id=in.parchieasybilling.parchi&referrer=utm_source%3Dmeta_ads%26utm_medium%3Dcpc%26utm_campaign%3Dparchi_launch_hindi%26utm_content%3Doffer_999">
             📲 Google Play से डाउनलोड करें
         </a>
         <div class="footer-note">Google Play Store पर Redirect हो रहा है...</div>
     </div>
 
     <script>
+        var targetUrl = "https://play.google.com/store/apps/details?id=in.parchieasybilling.parchi&referrer=utm_source%3Dmeta_ads%26utm_medium%3Dcpc%26utm_campaign%3Dparchi_launch_hindi%26utm_content%3Doffer_999";
         setTimeout(function() {
-            window.location.href = "https://play.google.com/store/apps/details?id=in.parchieasybilling.parchi&referrer=utm_source%3Dmeta_ads%26utm_medium%3Dcpc%26utm_campaign%3Dparchi_launch_hindi%26utm_content%3Doffer_999";
-        }, 1200);
+            window.location.href = targetUrl;
+        }, 1000);
     </script>
 </body>
 </html>
